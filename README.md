@@ -15,6 +15,9 @@ On MacOS, install the library:
 brew install libfido2
 ´´´
 
+Build with CMake.
+
 ´´´
-g++ -std=c++11 -o fido2_queue main.cpp HumanVerificationQueue.cpp Fido2Authenticator.cpp  -I/opt/homebrew/include -L/opt/homebrew/lib -lfido2
+cmake .
+make
 ´´´
